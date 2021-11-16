@@ -1,27 +1,27 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
-  text-align: center;
+  text-align: center; 
   background-color: #2a2c41;
 }
 
 #main-header {
-  height: 80px;
+  height: 5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(128, 128, 128, 0.2);
-  padding: 0 20px;
+  padding: 0 5%;
 }
 
 main h1 {
-  color: #fdbf50;
-  font-size: 48px;
+  color: rgb(253, 191, 80);
+  font-size: 3rem;
 }
 
 #logo {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
   display: flex;
@@ -29,7 +29,7 @@ main h1 {
   justify-content: center;
   text-decoration: none;
   text-align: center;
-  color: #ff724c;
+  color: rgb(255, 114, 76);
 }
 
 #main-header ul {
@@ -39,18 +39,23 @@ main h1 {
   justify-content: space-evenly;
   align-content: center;
   list-style-type: none;
-  color: #ff724c;
+  color: rgb(255, 114, 76);
   margin: 0;
   padding: 0;
 }
 
 #main-header li {
-  margin: 0 16px;
+  margin: 0 1rem;
+}
+
+#main-header nav a {
+  color: rgb(255, 114, 76);
+  font-size: 1.25rem;
 }
 
 #latest-products {
   width: 80%;
-  margin: 50px auto;
+  margin: 2rem auto;
 }
 
 #latest-products ul {
@@ -58,42 +63,41 @@ main h1 {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
+  gap: 1rem;
   list-style-type: none;
 }
 
-h2 {
-  color: #ff724c;
-}
-
 .food-item {
-    background-color: rgb(244, 244, 248);
-    border-radius: 10px;
-    overflow: hidden;
-  }
+  background-color: rgb(244, 244, 248);
+  border-radius: 10px;
+  overflow: hidden;
+}
 
 .food-item img {
   width: 100%;
-  height: 340px;
+  height: 21rem;
   object-fit: cover;
 }
 
 .food-item-content {
-    padding: 16px;
+  padding: 1rem;
+}
+
+h2 {
+  color: rgb(255, 114, 76);
 }
 
 article a {
   text-decoration: none;
-  padding: 8px 24px;
+  padding: 0.5rem 1.5rem;
   background-color: rgb(253, 191, 80);
   color: rgb(255, 255, 255);
   border-radius: 5px;
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
   display: inline-block;
 }
 
 article a:hover {
-    background-color: rgb(252, 173, 54);
+  background-color: rgb(252, 173, 54);
 }
-
