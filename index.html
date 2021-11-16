@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles/styles.css"/>
     <title>Web Food</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <a href="/index.html">
-                <span>Webfood</span>
+    <header id="main-header">
+            <a id="logo" href="/index.html">
+                WebFood
             </a>
-        </div>
         <nav>
             <ul class="nav-items">
                 <li class="nav-item">Browse Meals</li>
@@ -23,23 +26,23 @@
     </header>
     <main>
         <h1>Browse Our Delicious Meals</h1>
-        <section>
+        <section id="latest-products">
             <ul>
-                <li>
+                <li class="food-item">
                     <article>
                         <img src="/images/articles/risotto.jpg" alt="Risotto"/>
-                        <div>
-                            <h2>Rissoto</h2>
+                        <div class="food-item-content">
+                            <h2>Rissoto with Parmesan</h2>
                             <a href="">
                                 <span>Add to Cart</span>
                             </a>
                         </div>
                     </article>
                 </li>
-                <li>
+                <li class="food-item">
                     <article>
-                        <img src="/images/articles/cheeseburger.jpg" alt="Cheeseburgers"/>
-                        <div>
+                        <img src="/images/articles/cheeseburger.png" alt="Cheeseburgers"/>
+                        <div class="food-item-content">
                             <h2>Cheeseburgers</h2>
                             <a href="">
                                 <span>Add to Cart</span>
