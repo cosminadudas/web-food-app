@@ -101,3 +101,19 @@ article a {
 article a:hover {
   background-color: rgb(252, 173, 54);
 }
+
+@media (max-width: 48rem) {
+  /* make the page responsive when the width of the device si 768px (48rem) or less (entering tablet/mobile mode) */
+  main h1 {
+    font-size: 1.5rem;
+  }
+  
+  nav {
+    display: none;
+  }
+  
+  #latest-products ul {
+    grid-template-columns: 1fr;
+  }
+  
+}
